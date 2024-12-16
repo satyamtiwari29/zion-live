@@ -1,0 +1,10 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .stretched-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }

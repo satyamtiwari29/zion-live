@@ -1,0 +1,60 @@
+@import "./Text.css";
+
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 1rem; /* Adjust font size if necessary */
+  margin-right: 20px;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.nav-link:hover {
+  color: #f0f0f0 !important; /* Slight hover effect */
+}
+
+.nav-item .fab {
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 15px;
+}
+
+.nav-item .fab:hover {
+  color: #007bff; /* Icon hover effect */
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background: linear-gradient(
+    to right,
+    var(--violet) 0%,
+    rgba(2, 1, 2, 0.8) 70%,
+    rgba(2, 1, 2, 1) 100%
+  );
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.menu-item:hover {
+  color: var(--violet) !important;
+}
+
+.active-menu-item {
+  color: var(--violet) !important;
+  text-decoration: none;
+  font-weight: 500;
+}

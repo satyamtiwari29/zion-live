@@ -1,0 +1,32 @@
+.elementor-accordion-icon-closed{
+   
+    display: none;
+}
+.elementor-accordion-item{
+    border: 1px solid black;
+}
+.elementor-accordion-icon-opened{
+    display: none;
+}
+.elementor-accordion .elementor-tab-title .elementor-accordion-icon {
+    display: inline-block;
+    width: 1.5em;
+}
+.elementor-accordion .elementor-tab-title {
+    margin: 0;
+    padding: 15px 20px;
+    font-weight: 700;
+    line-height: 1;
+    cursor: pointer;
+    outline: none;
+}
+.elementor-accordion .elementor-tab-content {
+    /* display: none; */
+    padding: 15px 20px;
+    border-top: 1px solid #d5d8dc;
+}
+.tab-title .elementor-accordion-icon.icon-plus {
+    float: right;
+    text-align: right;
+}
+

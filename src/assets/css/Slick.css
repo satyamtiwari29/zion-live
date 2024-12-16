@@ -1,0 +1,33 @@
+/* Slick default settings */
+.slick-slide {
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.6;  /* Non-center cards will have reduced opacity */
+    padding: 0 10px; /* Space between slides */
+  }
+  
+  /* CSS for making the middle card larger */
+  .slick-center .connect-primary-button {
+    transform: scale(1.2);  /* Enlarge the center card */
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;  /* Bring the center card forward */
+    opacity: 1;  /* Full opacity for center card */
+  }
+  
+  /* Reduce opacity for non-center cards */
+  .slick-slide:not(.slick-center) .connect-primary-button {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Add padding to space out cards */
+  .slick-slide {
+    padding: 0 10px;  /* Add some spacing between the cards */
+  }
+  .container {
+    overflow: hidden;  /* Make sure the slider is within the container */
+  }
+  
+  .slick-slider {
+    width: 100%;  /* Ensure the slider takes the full width of the container */
+  }
+  
